@@ -1,0 +1,32 @@
+.offCanvas-container{
+    background-color: rgb(15,16,19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -55;
+    transition: 4s;
+    // transform: translateY(100%);  
+}
+
+.offcanvas-open{
+   transition: 5s;
+   transform-origin: bottom;
+   animation: slideup 1s finite;
+}
+
+.offcanvas-close{
+    // transform: translateY(100%);
+    
+    transition: 1s;
+   
+}
+
+
+@keyframes slideup {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}

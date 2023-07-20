@@ -1,0 +1,35 @@
+
+.division-container{
+    width: 100vw;
+    height:100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.categories{
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    h4{
+        text-align: center;
+        font-size: 2.4vw;
+        color: white;
+    }
+    p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+        width: 90%;
+        padding-top: 0.5rem;
+        padding-left: 1.5rem;
+    }
+}
+
+
+

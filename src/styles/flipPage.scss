@@ -1,0 +1,83 @@
+
+
+// .flipPage-container{
+//     width: 100vw;
+//     height: 99vh;
+//     display: grid;
+//     grid-template-columns: repeat(2,1fr);
+// }
+
+// .flipPage-part1{
+    
+//     display: grid;
+//     grid-template-columns: repeat(2,1fr);
+//     grid-template-rows: 1fr 1fr;
+// }
+
+// .flipPage-part1-index{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: rgb(15,16,19);
+//     color: rgb(243,243,243);
+//     ul{
+//         list-style: none;
+//         li{
+//             text-align: center;
+//             padding-bottom: 0.9rem;
+//         }
+//     }
+   
+// }
+// .flipPage-part1-map{
+//     width: 100%;
+//     overflow: hidden;
+//     img{
+//         width: 100%;
+//     }
+//     &:hover{
+//         transform: scale(1.05);
+//         transition: 2s;
+//     }
+// }
+// .flipPage-part1-logo{
+//     background-color: rgb(29,32,39);
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     div{
+        
+//         img{
+//             width: 100%;
+//         }
+//     }
+   
+// }
+// .flipPage-part1-address{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: rgb(15,16,19);
+//     color: rgb(243,243,243);
+//     p{
+//         width: 75%;
+//         text-align: center;
+//     }
+// }
+
+// .flipPage-part2{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: rgb(21,23,27);
+//     color: rgb(243,243,243);
+//     ul{ 
+//         text-align: center;
+//         font-size: 2rem;
+//         li{
+//             list-style: none;
+//             padding-bottom: 1rem;
+            
+//         }
+//     }
+// }
